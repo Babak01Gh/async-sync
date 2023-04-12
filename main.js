@@ -17,6 +17,6 @@ submitBtn.addEventListener('click', ()=>{
 
 function getDetails(id,callback){
     setTimeout(()=>{
-        axios.get(`http://localhost:3000/emails/${id}`).then(user => callback(user.data));    
+        axios.get(`https://my-json-server.typicode.com/babak01Gh/async-sync/emails/${id}`).then(user => callback(user.data));    
     },2000)
 }
