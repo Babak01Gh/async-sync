@@ -1,0 +1,34 @@
+{
+    "emails":[
+        {
+            "id":1,
+            "email":"babak@gmail.com",
+            "loginDetails":"logged in 2020",
+            "courses":"react and javaScript courses"
+        },
+        {
+            "id":2,
+            "email":"felan@gmail.com",
+            "loginDetails":"logged in 2018",
+            "courses":"htmlCss and bootstrap courses"
+        },
+        {
+            "id":3,
+            "email":"google@gmail.com",
+            "loginDetails":"logged in 2021",
+            "courses":"javaScript course"
+        },
+        {
+            "id":4,
+            "email":"yahoo@gmail.com",
+            "loginDetails":"logged in 2022",
+            "courses":"htmlCss course"
+        },
+        {
+            "id":5,
+            "email":"gmail@gmail.com",
+            "loginDetails":"logged in 2019",
+            "courses":"react and javaScript and tailwind courses"
+        }
+    ]
+}

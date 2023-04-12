@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 2rem;
+}
+.emailsBox label{
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #d8d8d8;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.emailsBox input[type='radio']{
+    display: none;
+}
+.emailsBox input[type='radio']:checked + label{
+    background-color: #d8d8d8;
+}
+.emailsBox input[type='submit']{
+    outline: none;
+    border: 0;
+    padding: 1rem;
+    background-color: #adfeb8;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+.details-for{
+    width: 100%;
+    min-height: 100px;
+}
+.details-for p{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+}
+.details-for.Onload p{
+    display: none;
+}
+.details-for.Onload{
+    background: linear-gradient(to right,#d8d8d8,#efefef 100px,#d8d8d8);
+    animation: preLoader linear 2s infinite;
+    opacity: 0.5;
+}
+@keyframes preLoader {
+    0%{
+        background-position: 0;
+    }
+    100%{
+        background-position: 400px;
+    }
+}
